@@ -1,0 +1,119 @@
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+	right: 70%;
+}
+.carousel-caption h5 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	line-height: 1.9;
+	font-family: poppins;
+	
+}
+.carousel-caption a {
+	margin-top: 15px;
+	text-transform: uppercase;
+	color: #fff;
+	
+} 
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav.ml-auto {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.navbar-nav a {
+		font-family: sans-serif;
+		font-size: 14px;
+		font-weight: normal;
+	}
+}
+
+.footer{
+	background: #152F4F;
+	color:white;
+}
+	
+.links ul {
+	  list-style-type: none;
+}
+
+.links li a{
+		color: white;
+		text-decoration:none;
+		transition: color .2s;
+} 
+.links li a:hover{
+	  text-decoration:none;
+	  color:#4180CB;
+}
+
+.footer-icons{
+	margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206,206,206);
+}
+.footer-icons a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+    letter-spacing: 12px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.2s;
+}
+.footer-icons a:hover {
+	color: #fff;
+	transition: 0.2s;
+	text-shadow: 1px 1px 20px rgba(194, 194, 194, 0.548);
+	text-decoration: none
+
+}
+.about-company i{font-size: 25px;}
+.about-company a{
+		color:white;
+		transition: color .2s;
+	  }
+
+.location i{font-size: 18px;
+	}
+.copyright p{border-top:1px solid rgba(255,255,255,.1);} 
